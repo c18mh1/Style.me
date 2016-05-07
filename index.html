@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+  <html>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="http://imagehost4.online-image-editor.com/oie_upload/images/7174116WQuM56/transparent.png">
+
+    <head>
+      <title> Style.me </title>
+
+  <meta charset="utf-8">
+  <title>jQuery UI Datepicker - Default functionality</title>
+  <link rel="stylesheet" zhref="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
+
+
+  <script>
+  $(function() {
+    $( "#datepicker" ).datepicker();
+  });
+  </script>
+
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">Home</a>
+    <a href="#">Outfits</a>
+    <a href="#">About Us</a>
+  </div>
+</div>
+    </head>
+
+    <body>
+      <img class="logo--image" src= "http://ell.h-cdn.co/assets/15/06/1600x800/gallery_nrm_1423440554-elle-fashion-sketch-comp.jpg">
+     <center> <h1 > Style.me </h1> </center>
+
+     <h2 id = "h2">  Spring 2016 Collection  </h2>
+
+       <hr id = "line-seperator" width="10%" color = "#000000" size="2" align="center">
+      <div class="line-separator"></div>
+
+  <br> <h3 id = "h3"> Fill in your choices below. </h3>
+
+ <!-- <img id = "cover" src="http://ell.h-cdn.co/assets/15/06/1600x800/gallery_nrm_1423440554-elle-fashion-sketch-comp.jpg" alt="Cover Photo" style="width:1150px;height:850px;"> -->
+
+     <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+    <p>Date: <input type="text" id="datepicker"></p>
+
+      <br>
+
+     Choose the weather:
+      <input type="radio" name= "weather" value= "rain">Rain
+      <input type="radio" name= "weather" value= "sunny">Sunny
+      <input type="radio" name= "weather" value= "snow">Snow <br>
+
+      <br>
+
+
+<!-- weather  -->
+<div class = "container1">
+  <ul>
+    <li>
+    <input type="radio" id="f-option" name="selector">
+    <label for="f-option">Rainy</label>
+    <div class="check"></div>
+    </li>
+    <li>
+
+    <input type="radio" id="s-option" name="selector">
+    <label for="s-option">Sunny</label>
+    <div class="check"><div class="inside"></div></div>
+    </li>
+  </ul>
+</div>
+
+<!--  time  -->
+  <div class = "container2">
+  <ul>
+    <li>
+    <input type="radio" id="f-option" name="selector">
+    <label for="f-option">Morning</label>
+    <div class="check"></div>
+    </li>
+    <li>
+
+    <input type="radio" id="s-option" name="selector">
+    <label for="s-option">Evening</label>
+    <div class="check"><div class="inside"></div></div>
+    </li>
+    </ul>
+
+</div>
+
+<!--  event  -->
+<div class = "container3">
+  <ul>
+    <li>
+    <input type="radio" id="f-option" name="selector">
+    <label for="f-option">Casual</label>
+    <div class="check"></div>
+    </li>
+    <li>
+
+    <input type="radio" id="s-option" name="selector">
+    <label for="s-option">Semi-formal</label>
+    <div class="check"><div class="inside"></div></div>
+    </li>
+
+  <li>
+      <input type="radio" id="t-option" name="selector">
+    <label for="t-option">Formal</label>
+    <div class="check"><div class="inside"></div></div>
+    </li>
+  </ul>
+
+</div>
+
+<!--  style  -->
+<div class = "container4">
+  <ul>
+    <li>
+    <input type="radio" id="f-option" name="selector">
+    <label for="f-option">Boho</label>
+    <div class="check"></div>
+    </li>
+    <li>
+
+    <input type="radio" id="s-option" name="selector">
+    <label for="s-option">Chic</label>
+    <div class="check"><div class="inside"></div></div>
+    </li>
+
+  <li>
+      <input type="radio" id="t-option" name="selector">
+    <label for="t-option">Preppy</label>
+    <div class="check"><div class="inside"></div></div>
+    </li>
+
+      <li>
+      <input type="radio" id="g-option" name="selector">
+    <label for="g-option">Minimalistic</label>
+    <div class="check"><div class="inside"></div></div>
+    </li>
+
+       <li>
+      <input type="radio" id="h-option" name="selector">
+    <label for="h-option">Athletic</label>
+    <div class="check"><div class="inside"></div></div>
+    </li>
+  </ul>
+</div>
+
+ <!--  PRICE  -->
+<div class = "container5">
+  <ul>
+    <li>
+    <input type="radio" id="f-option" name="selector">
+    <label for="f-option">$</label>
+    <div class="check"></div>
+    </li>
+    <li>
+
+    <input type="radio" id="s-option" name="selector">
+    <label for="s-option">$$</label>
+    <div class="check"><div class="inside"></div></div>
+    </li>
+
+  <li>
+      <input type="radio" id="t-option" name="selector">
+    <label for="t-option">$$$</label>
+    <div class="check"><div class="inside"></div></div>
+    </li>
+
+  </ul>
+    </div>
+<hr>
+
+
+
+      </body>
+  </html>
